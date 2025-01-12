@@ -226,3 +226,11 @@ button {
 		width: 40em;
 	}
 }
+@media screen and (max-width:767px) {
+	:root {
+		font-size: 1.1rem;
+	}
+	header, main, footer {
+		max-width: 767px;
+	}
+}
