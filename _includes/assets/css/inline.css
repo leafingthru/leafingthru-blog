@@ -114,6 +114,7 @@ header nav li {
 
 header nav li a {
 	padding: 0 .5em;
+	color: var(--secondary);
 }
 
 header nav li a[href]:not(:hover) {
@@ -121,8 +122,8 @@ header nav li a[href]:not(:hover) {
 }
 
 header nav li a[data-current="current item"] {
-	color: var(--secondary);
-	background-color: var(--primary);
+	color: var(--primary);
+	background-color: var(--secondary);
 }
 
 /* Posts List */
