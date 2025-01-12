@@ -45,15 +45,15 @@ a[href]:not(:hover) {
 	text-decoration: none;
 }
 
-h1, h4 {
+h3, h6 {
 	color: var(--primary);
 }
 
-h2, h5 {
+h1, h4 {
 	color: var(--secondary);
 }
 
-h3, h6 {
+h2, h5 {
 	color: var(--tertiary);
 }
 
