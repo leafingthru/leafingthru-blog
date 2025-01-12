@@ -45,6 +45,17 @@ a[href]:not(:hover) {
 	text-decoration: none;
 }
 
+h1, h4 {
+	color: var(--primary);
+}
+
+h2, h5 {
+	color: var(--secondary);
+}
+
+h3, h6 {
+	color: var(--tertiary);
+}
 
 em, i, b {
 	color: var(--secondary)
