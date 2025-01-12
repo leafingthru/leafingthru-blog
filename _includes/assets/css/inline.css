@@ -93,6 +93,10 @@ header > em {
 }
 
 /* Header Nav */
+
+header nav {
+	background-color: var(--secondary);
+}
 header nav ul {
 	padding: 0;
 	list-style: none;
@@ -117,6 +121,7 @@ header nav li a[href]:not(:hover) {
 }
 
 header nav li a[data-current="current item"] {
+	color: var(--primary);
 	background-color: var(--secondary);
 }
 
