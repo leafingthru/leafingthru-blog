@@ -95,7 +95,8 @@ header > em {
 /* Header Nav */
 
 header nav {
-	background-color: var(--secondary);
+	background-color: var(--primary);
+	padding: .50em;
 }
 header nav ul {
 	padding: 0;
@@ -112,8 +113,7 @@ header nav li {
 }
 
 header nav li a {
-	padding: .25em .5em;
-	border-radius: .25em;
+	padding: 0 .5em;
 }
 
 header nav li a[href]:not(:hover) {
@@ -121,8 +121,8 @@ header nav li a[href]:not(:hover) {
 }
 
 header nav li a[data-current="current item"] {
-	color: var(--primary);
-	background-color: var(--secondary);
+	color: var(--secondary);
+	background-color: var(--primary);
 }
 
 /* Posts List */
