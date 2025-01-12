@@ -26,6 +26,7 @@ body {
 }
 
 main {
+	margin: auto;
 	max-width: 37.5em;
 }
 
