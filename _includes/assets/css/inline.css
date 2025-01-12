@@ -1,7 +1,8 @@
 :root {
 	--primary: #08C1C4;
 	--secondary: #FDFCDC;
-	--background: #001021;
+	--text-color: #CCDDEE;
+	--background: #001020;
 }
 
 *, *:before, *:after {
@@ -20,6 +21,7 @@ body {
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
 	background-color: var(--background);
+	color: var(--text-color);
 }
 
 main {
