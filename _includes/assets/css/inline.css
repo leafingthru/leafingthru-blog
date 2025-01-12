@@ -38,10 +38,10 @@ code {
 
 a[href],
 a[href]:visited {
-	color: var(--tertiary);
+	color: var(--primary);
 }
 
-a[href],hover {
+a[href]:hover {
 	color: var(--secondary);
 }
 
@@ -89,7 +89,7 @@ pre {
 /* Header Logo (style as h2) */
 header {
 	max-width: 40em;
-	margin: 0;
+	margin: 0 auto;
 	padding: 1em;
 }
 
