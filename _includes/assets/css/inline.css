@@ -106,9 +106,11 @@ header > em {
 	margin: .67em 0;
 	font-weight: bold;
 	font-style: normal;
-	color: var(--text-color);
 }
 
+header a {
+	color: var(--text-color);
+}
 /* Header Nav */
 
 header nav {
