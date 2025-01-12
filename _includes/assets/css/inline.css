@@ -27,7 +27,7 @@ body {
 }
 
 main {
-	max-width: 40em;
+	/*max-width: 40em;*/
 }
 
 p,
@@ -55,6 +55,7 @@ img {
 }
 
 
+header,
 main,
 footer {
 	margin: 0 auto;
@@ -87,12 +88,6 @@ pre {
 }
 
 /* Header Logo (style as h2) */
-header {
-	max-width: 40em;
-	margin: 0 auto;
-	padding: 1em;
-}
-
 header > em {
 	display: block;
 	font-size: 2em;
@@ -212,5 +207,8 @@ button {
 @media screen and (min-width:768px) {
 	:root {
 		font-size: 1.1rem;
+	}
+	header, main, footer {
+		max-width: 40em;
 	}
 }
