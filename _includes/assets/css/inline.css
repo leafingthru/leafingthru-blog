@@ -45,6 +45,11 @@ a[href]:not(:hover) {
 	text-decoration: none;
 }
 
+
+em, i, b {
+	color: var(--secondary)
+}
+
 img {
 	max-width: 100%;
 	height: auto;
