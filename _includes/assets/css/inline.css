@@ -1,9 +1,9 @@
 :root {
 	--primary: #08C1C4;
-	--secondary: #FDFCDC;
+	--secondary: #96BEFF;
+	--tertiary: #005566;
 	--text-color: #FCFCF0;
 	--background: #001020;
-	--header-color: #AAEEEE;
 	--nav-bar: #222233;
 }
 
@@ -38,7 +38,11 @@ code {
 
 a[href],
 a[href]:visited {
-	color: var(--primary);
+	color: var(--tertiary);
+}
+
+a[href],hover {
+	color: var(--secondary);
 }
 
 a[href]:not(:hover) {
@@ -50,7 +54,7 @@ img {
 	height: auto;
 }
 
-header,
+
 main,
 footer {
 	margin: 0 auto;
@@ -85,6 +89,8 @@ pre {
 /* Header Logo (style as h2) */
 header {
 	max-width: 40em;
+	margin: 0;
+	padding: 1em;
 }
 
 header > em {
@@ -93,14 +99,13 @@ header > em {
 	margin: .67em 0;
 	font-weight: bold;
 	font-style: normal;
-	color: var(--header-color);
+	color: var(--primary);
 }
 
 /* Header Nav */
 
 header nav {
 	background-color: var(--nav-bar);
-	padding: .25em;
 }
 header nav ul {
 	padding: 0;
@@ -127,7 +132,7 @@ header nav li a[href]:not(:hover) {
 
 header nav li a[data-current="current item"] {
 	color: var(--primary);
-	background-color: var(--secondary);
+	background-color: var(--tertiary);
 }
 
 /* Posts List */
