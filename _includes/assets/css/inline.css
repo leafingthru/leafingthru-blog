@@ -52,6 +52,7 @@ img {
 header,
 main,
 footer {
+	margin: 0 auto;
 	padding: 1em;
 }
 
