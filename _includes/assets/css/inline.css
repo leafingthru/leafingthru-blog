@@ -3,6 +3,7 @@
 	--secondary: #FDFCDC;
 	--text-color: #FCFCF0;
 	--background: #001020;
+	--header-color: #11BBDD;
 }
 
 *, *:before, *:after {
@@ -87,6 +88,7 @@ header > em {
 	margin: .67em 0;
 	font-weight: bold;
 	font-style: normal;
+	color: var(--header-color);
 }
 
 /* Header Nav */
