@@ -4,6 +4,7 @@
 	--text-color: #FCFCF0;
 	--background: #001020;
 	--header-color: #AAEEEE;
+	--nav-bar: #222233;
 }
 
 *, *:before, *:after {
@@ -59,7 +60,6 @@ footer {
 main {
 	padding-bottom: 2em;
 }
-
 main :first-child,
 main > article :first-child {
 	margin-top: 0;
@@ -83,6 +83,10 @@ pre {
 }
 
 /* Header Logo (style as h2) */
+header {
+	max-width: 40em;
+}
+
 header > em {
 	display: block;
 	font-size: 2em;
@@ -95,8 +99,8 @@ header > em {
 /* Header Nav */
 
 header nav {
-	background-color: var(--primary);
-	padding: .50em;
+	background-color: var(--nav-bar);
+	padding: .25em;
 }
 header nav ul {
 	padding: 0;
@@ -114,7 +118,7 @@ header nav li {
 
 header nav li a {
 	padding: 0 .5em;
-	color: var(--secondary);
+	color: var(--nav-bar);
 }
 
 header nav li a[href]:not(:hover) {
