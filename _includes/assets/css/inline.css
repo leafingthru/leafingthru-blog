@@ -26,10 +26,6 @@ body {
 	color: var(--text-color);
 }
 
-main {
-	/*max-width: 40em;*/
-}
-
 p,
 pre,
 code {
@@ -209,6 +205,6 @@ button {
 		font-size: 1.1rem;
 	}
 	header, main, footer {
-		max-width: 40em;
+		width: 40em;
 	}
 }
